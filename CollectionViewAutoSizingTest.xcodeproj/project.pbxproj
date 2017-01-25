@@ -12,6 +12,8 @@
 		A47B7AAB1E38544800DAD9C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A47B7AA91E38544800DAD9C7 /* Main.storyboard */; };
 		A47B7AAD1E38544800DAD9C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A47B7AAC1E38544800DAD9C7 /* Assets.xcassets */; };
 		A47B7AB01E38544800DAD9C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A47B7AAE1E38544800DAD9C7 /* LaunchScreen.storyboard */; };
+		A47B7AB91E385F2A00DAD9C7 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47B7AB71E385F2A00DAD9C7 /* Cell.swift */; };
+		A47B7ABA1E385F2A00DAD9C7 /* Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A47B7AB81E385F2A00DAD9C7 /* Cell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		A47B7AAC1E38544800DAD9C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A47B7AAF1E38544800DAD9C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A47B7AB11E38544800DAD9C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A47B7AB71E385F2A00DAD9C7 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		A47B7AB81E385F2A00DAD9C7 /* Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				A47B7AAC1E38544800DAD9C7 /* Assets.xcassets */,
 				A47B7AAE1E38544800DAD9C7 /* LaunchScreen.storyboard */,
 				A47B7AB11E38544800DAD9C7 /* Info.plist */,
+				A47B7AB71E385F2A00DAD9C7 /* Cell.swift */,
+				A47B7AB81E385F2A00DAD9C7 /* Cell.xib */,
 			);
 			path = CollectionViewAutoSizingTest;
 			sourceTree = "<group>";
@@ -96,6 +102,7 @@
 				TargetAttributes = {
 					A47B7AA11E38544800DAD9C7 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8NQ7AXAYPG;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A47B7AB01E38544800DAD9C7 /* LaunchScreen.storyboard in Resources */,
+				A47B7ABA1E385F2A00DAD9C7 /* Cell.xib in Resources */,
 				A47B7AAD1E38544800DAD9C7 /* Assets.xcassets in Resources */,
 				A47B7AAB1E38544800DAD9C7 /* Main.storyboard in Resources */,
 			);
@@ -138,6 +146,7 @@
 			files = (
 				A47B7AA81E38544800DAD9C7 /* ViewController.swift in Sources */,
 				A47B7AA61E38544800DAD9C7 /* AppDelegate.swift in Sources */,
+				A47B7AB91E385F2A00DAD9C7 /* Cell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +269,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8NQ7AXAYPG;
 				INFOPLIST_FILE = CollectionViewAutoSizingTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = th.co.sun.CollectionViewAutoSizingTest;
@@ -272,6 +282,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8NQ7AXAYPG;
 				INFOPLIST_FILE = CollectionViewAutoSizingTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = th.co.sun.CollectionViewAutoSizingTest;
